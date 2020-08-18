@@ -30,7 +30,11 @@ export class _Blank extends React.Component {
   }
 
   render = () => (
-    <View
+    <ImageBackground
+      source={{
+        uri:
+          "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/9_rW2Fiw2.jpg"
+      }}
       style={{
         width: "100%",
         height: "100%",
@@ -331,7 +335,7 @@ export class _Blank extends React.Component {
           borderRadius: 0
         }}
       />
-    </View>
+    </ImageBackground>
   )
 }
 
