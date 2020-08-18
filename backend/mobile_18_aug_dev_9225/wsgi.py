@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mobile_18_aug_dev_9225.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mobile_18_aug_dev_9225.settings")
 
 application = get_wsgi_application()
