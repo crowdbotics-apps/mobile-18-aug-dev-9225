@@ -11,7 +11,7 @@ const newPlugin1811 = axios.create({
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 const mobile18augAPI = axios.create({
-  baseURL: "https://mobile-18-aug-dev-9225-prod.herokuapp.com/",
+  baseURL: "https://mobile-18-aug-dev-9225.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {
@@ -25,6 +25,24 @@ function api_v1_customtext_update(requestBody) {
 }
 function api_v1_customtext_partial_update(requestBody) {
   return mobile18augAPI.patch(`/api/v1/customtext/{id}/`, requestBody)
+}
+function api_v1_hhggjhg_list() {
+  return mobile18augAPI.get(`/api/v1/hhggjhg/`)
+}
+function api_v1_hhggjhg_create(requestBody) {
+  return mobile18augAPI.post(`/api/v1/hhggjhg/`, requestBody)
+}
+function api_v1_hhggjhg_read() {
+  return mobile18augAPI.get(`/api/v1/hhggjhg/{id}/`)
+}
+function api_v1_hhggjhg_update(requestBody) {
+  return mobile18augAPI.put(`/api/v1/hhggjhg/{id}/`, requestBody)
+}
+function api_v1_hhggjhg_partial_update(requestBody) {
+  return mobile18augAPI.patch(`/api/v1/hhggjhg/{id}/`, requestBody)
+}
+function api_v1_hhggjhg_delete() {
+  return mobile18augAPI.delete(`/api/v1/hhggjhg/{id}/`)
 }
 function api_v1_homepage_list() {
   return mobile18augAPI.get(`/api/v1/homepage/`)
@@ -85,6 +103,12 @@ export const apiService = {
   api_v1_customtext_read,
   api_v1_customtext_update,
   api_v1_customtext_partial_update,
+  api_v1_hhggjhg_list,
+  api_v1_hhggjhg_create,
+  api_v1_hhggjhg_read,
+  api_v1_hhggjhg_update,
+  api_v1_hhggjhg_partial_update,
+  api_v1_hhggjhg_delete,
   api_v1_homepage_list,
   api_v1_homepage_read,
   api_v1_homepage_update,

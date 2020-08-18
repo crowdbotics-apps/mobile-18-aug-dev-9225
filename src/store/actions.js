@@ -277,3 +277,65 @@ export const rest_auth_user_partial_updateFailed = error => ({
   type: types.REST_AUTH_USER_PARTIAL_UPDATE_FAILED,
   error
 })
+export const api_v1_hhggjhg_list = () => ({ type: types.API_V1_HHGGJHG_LIST })
+export const api_v1_hhggjhg_listSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_LIST_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_listFailed = error => ({
+  type: types.API_V1_HHGGJHG_LIST_FAILED,
+  error
+})
+export const api_v1_hhggjhg_create = () => ({
+  type: types.API_V1_HHGGJHG_CREATE
+})
+export const api_v1_hhggjhg_createSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_CREATE_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_createFailed = error => ({
+  type: types.API_V1_HHGGJHG_CREATE_FAILED,
+  error
+})
+export const api_v1_hhggjhg_read = () => ({ type: types.API_V1_HHGGJHG_READ })
+export const api_v1_hhggjhg_readSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_READ_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_readFailed = error => ({
+  type: types.API_V1_HHGGJHG_READ_FAILED,
+  error
+})
+export const api_v1_hhggjhg_update = () => ({
+  type: types.API_V1_HHGGJHG_UPDATE
+})
+export const api_v1_hhggjhg_updateSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_UPDATE_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_updateFailed = error => ({
+  type: types.API_V1_HHGGJHG_UPDATE_FAILED,
+  error
+})
+export const api_v1_hhggjhg_partial_update = () => ({
+  type: types.API_V1_HHGGJHG_PARTIAL_UPDATE
+})
+export const api_v1_hhggjhg_partial_updateSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_PARTIAL_UPDATE_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_partial_updateFailed = error => ({
+  type: types.API_V1_HHGGJHG_PARTIAL_UPDATE_FAILED,
+  error
+})
+export const api_v1_hhggjhg_delete = () => ({
+  type: types.API_V1_HHGGJHG_DELETE
+})
+export const api_v1_hhggjhg_deleteSucceeded = response => ({
+  type: types.API_V1_HHGGJHG_DELETE_SUCCEEDED,
+  response
+})
+export const api_v1_hhggjhg_deleteFailed = error => ({
+  type: types.API_V1_HHGGJHG_DELETE_FAILED,
+  error
+})
